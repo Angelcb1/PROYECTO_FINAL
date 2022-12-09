@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+
+  
+    <!-- fontawesome -->
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+
+    <!-- wow -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="js/wow.min.js"></script>
+        <!-- responsive slide -->
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src="responsiveslides.min.js"></script>
+    <!-- FANCYBOX -->
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
+    <script src="js/fancybox/jquery.fancybox.js"></script>
+    <!-- TINY CARRUSEL -->
+    <script type="text/javascript" src="js/jquery.tinycarousel.js"></script>
+    <!-- MODAL -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+
+    <script>$(function () {
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+    });</script>
+
+
+
+    <title>ProyectoFinal</title>
+</head>
+
+<!-- FONDO PARALLAX -->
+<body id="section1">  
+
+  <!-- FLECHA PARA SUBIR -->
+
+  <i id="subir" class="fas fa-arrow-circle-up"></i>
+<!-- -------------------------------------------------------------------------- -->
+
+
+<!-- SCRIP PARA EJECUTAR WOW -->
+  <script>
+    new WOW().init();
+    </script>
+<!-- -------------------------------------------------------------------------- -->
+  <header>
+
+    <!-- MENU RESPONSIVO -->
+
+      <div class="contenedor_cabecera">
+        <figure><img class="img_tamaño" src="img/logo.jpg" alt=""></figure>
+  
+        <div class="btn_amarillo2">
+          <li ><a href="#">MAKE IN APPOINTMENT</a></li>
+      </div>
+        
+        <div class="alineacion">
+ 
+         <div class="menu_bars">
+             <i id="iconomenu" class="fa-solid fa-bars"></i>
+         </div>
+  
+        </div> 
+        
+     </div>
+  
+     <nav>
+         <ul class="contenedor_menu">
+             <li><a class="btn_ancla" href="#">HOME</a></li>
+             <li><a class="btn_ancla" href="#about">A B O U T ‎ ‎ ‎ ‎ U S ‎ ‎</a></li>
+             <li><a class="btn_ancla" href="#services">OUR ‎ ‎ ‎ ‎SERVICES</a></li>
+             <li><a class="btn_ancla" href="#recomendar">RECOMMENDATIONS</a></li>
+             <li><a class="btn_ancla" href="#gallery">OUR GALLERY</a></li>
+             <li><a class="btn_ancla" href="#contac">CONTACT US</a></li>
+         </ul>
+     </nav>
+  
+            <div class="btn_amarillo">
+                <li ><a href="#">MAKE IN APPOINTMENT</a></li>
+            </div>
+
+   
+    
+
+
+  </header>
+    
+<!---------------------------------------------------------------------------- -->
+  
+        <!-- SLIDES DE PORTADA -->
+
+<div class="callbacks_container">
+    <ul class="rslides" id="slider4">
+      <li>
+        <img src="img/portada1.jpg" alt="">
+       
+        
+        <section class="caption2">
+      
+          <nav class="orden1">
+            <div class="orden2">
+              <h1>WE KNOW</h1>
+              <h2>the best way</h2>
+              <h3>TO LOSE WEIGHT</h3>
+            </div>
+    
+            <div class="btn_gris">
+              <li ><a href="#">MAKE IN APPOINTMENT</a></li>
+            </div>
+  
+          </nav>
+          
+        </section>
+
+      </li>
+      <li>
+        <img src="img/portada2.jpg" alt="">
+        <section class="caption2">
+      
+          <nav class="orden1">
+            <div class="orden2">
+              <h1>CHOOSE</h1>
+              <h2>the weight loss</h2>
+              <h3>GUIDE NOW!</h3>
+            </div>
+    
+            <div class="btn_gris">
+              <li ><a href="#">MAKE IN APPOINTMENT</a></li>
+            </div>
+  
+          </nav>
+          
+        </section>
+      </li>
+      <li>
+        <img src="img/portada3.jpg" alt="">
+        <section class="caption2">
+      
+          <nav class="orden1">
+            <div class="orden2">
+              <h1>EAT LESS</h1>
+              <h2>count calories</h2>
+              <h3>AND EXERCISE!</h3>
+            </div>
+    
+            <div class="btn_gris">
+              <li ><a href="#">MAKE IN APPOINTMENT</a></li>
+            </div>
+  
+          </nav>
+          
+        </section>
+      </li>
+    </ul>
+  </div>
+
+
+          <!-- WOW Y VIDEO -->
+  <section id="about" class="cabecera3">
+    <div class="texto1 transition wow animate__animated animate__fadeInLeft animate animate__delay-1s">
+      <h1>A B O U T ‎ ‎ ‎ ‎  U S   ‎  ‎<i id="point" class="fa-regular fa-hand-point-right"></i></h1>
+      <h2>Ultimate Weight Loss Clinic</h2>
+      <h3>If your previous attempts to lose weight have failed, it’s not because you failed.</h3>
+      <p>It’s because whatever diets or regimens you tried have failed you. There’s no such thing as a one-size-fits-all solution to the weight loss issues. Varying health conditions should also be all taken into account, when tailoring a custom weight loss program for any specific client. In short, we’re sure that our extensive experience in helping people to lose that excessive weight will prove to be effective for anyone!</p>
+    </div>
+
+    <iframe id="video" width="600" height="315" src="https://www.youtube.com/embed/LxoqoGphvO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <br><br>
+
+  <!-- TRANITION Y WOW -->
+  <section class="cabecera4">
+    <figure>
+      <img src="img/transition.jpg" alt="">
+    </figure>
+   
+
+    <nav class="transition wow animate__animated animate__fadeInRight animate animate__delay-1s" >
+      <div class="texto2">
+        <h1 >Losing weight</h1>
+        <h2>WITH THE HELP OF A COACH IS DOABLE!</h2>
+        
+      </div>
+
+      <div class="btn_amarillo3">
+        <li ><a href="#">MAKE IN APPOINTMENT</a></li>
+      </div>
+
+    </nav>
+  </section>
+
+<br><br>
+
+<!--  TRANSFORM Y WOW -->
+
+
+
+            <!-- SECCION DE ACORDEON -->
+
+<section id="services" class="cabecera5">
+  
+    <h1>OUR ‎ ‎ ‎ ‎SERVICES</h1>
+
+    <div class="acordeon">
+      <div class="acordeon_titulo titulo1">
+        <h2>Service 1</h2>
+        <div class="iconos">
+          <i class="fa-solid fa-plus mas1"></i>
+          <i class="fa-solid fa-minus menos1"></i>
+        </div>
+      </div>
+      <div class="acordeon_contenido contenido1">
+        <div class="orden4">
+          <p >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ex,
+            eligendi. Iste, beatae error magni a sequi sit voluptatum obcaecati
+            recusandae, nisi ipsa laboriosam vero cupiditate vel molestiae
+            reiciendis itaque.
+          </p>
+          <img src="img/naranja.png" alt="">
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+    <div class="acordeon">
+      <div class="acordeon_titulo2 titulo2">
+        <h2>Service 2</h2>
+        <div class="iconos">
+          <i class="fa-solid fa-plus mas2"></i>
+          <i class="fa-solid fa-minus menos2"></i>
+        </div>
+      </div>
+      <div class="acordeon_contenido2 contenido2">
+        <div class="orden4">
+          <p >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, ex,
+            eligendi. Iste, beatae error magni a sequi sit voluptatum obcaecati
+            recusandae, nisi ipsa laboriosam vero cupiditate vel molestiae
+            reiciendis itaque.
+          </p>
+          <img id="limon" src="img/limon.png" alt="">
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+</section>
+
+<br><br>
+
+
+        <!-- SECCION DE CARRUSEL -->
+        <section  class="cabecera6">
+          <div id="recomendar" class="recomendaciones1"> 
+            <h1>RECOMMENDATIONS</h1>
+          </div>
+          <div  id="carrusel">
+   
+
+
+
+            <div class="flechas">
+                <a class="buttons prev" href="#"><i class="fa-solid fa-arrow-left-long"></i></a>
+                <a class="buttons next" href="#"><i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+          
+          
+          <!-- apartado de imagenes -->
+          
+          
+          <div class="movimiento">
+          <ul class="contenedor_imagenes">
+          
+          
+          <!-- imagenes y texto -->
+          <li class="orden6">
+          <img src="img/dieta1.jpg" />
+          <h2 class="fuente">Healthy Eating</h2>
+          <p class="fuente">Recognizing the importance of a healthy diet, each week our clinic hosts a series of small group meetings and often offers food samples and recipes to enrich your culinary perception and routine. During those sessions, you will learn some essential grocery shopping tips, particularly about how to stock a healthy pantry, and how to prepare nutritious and tasty meals. Our weight management services take a whole-foods approach that balances optimum nutrition with real life practical concerns.</p>
+                </li>
+                <li class="orden6">
+          <img src="img/dieta2.jpg" />
+          <h2 class="fuente">Helping Kids</h2>
+          <p class="fuente">Because there’s no universal trigger and because kids all grow at different paces, spotting early telling signs of child’s obesity is hard. Also, the amount of body fat changes with age and is different if depending on whom we’re talking about – girls or boys. Still, the ultimate way to determine whether a child’s weight status is safe or not is calculating the body mass index (BMI). The BMI measures a person’s weight in relation to his or her height. The BMI of children is age- and sex-specific and known as the “BMI-for-age.”</p>
+          </li>
+          <li class="orden6">
+          <img id="dieta3" src="img/dieta3.jpg" />
+          <div class="dieta33">
+            <h2 class="fuente">Surgical Solutions</h2>
+            <p id="dieta32" class="fuente">During the surgery, a large segment of the stomach is removed during a minor surgical intrusion. This minimally invasive laparoscopic technique is absolutely safe and helps to remove the part of your stomach that’s responsible for generating a hunger-producing hormone. Afterwards, patients will have their appetite significantly diminished.</p>
+          </div>
+          
+          </li>
+          
+          
+          
+          
+          </ul>
+          </div>
+          
+          </div>
+
+        </section>
+
+        <br><br>
+
+        <!-- SECCION DE SOMBRAS -->
+
+        <div class="fondo_blanco">
+          <div class="precios">
+            <h1>A ‎ F ‎ F ‎ O ‎ R ‎ D ‎ A ‎ B ‎ L ‎ E ‎ ‎ ‎ ‎
+              L ‎ O ‎ S ‎ I ‎ N ‎ G ‎ ‎ ‎ ‎
+               W ‎ E ‎ I ‎ G ‎ H ‎ T</h1>
+            <h2>Pricing Tables</h2>
+          </div>
+       
+          <section class="cabecera7">
+
+            <div id="primero" class="titulosombra">
+              <h1>1 MONTH </h1>
+              <h2>$540</h2>
+              <p>Weight Assessment</p>
+              <p>Dieting</p>
+              <p>Physical Activities</p>
+              <p>Coaching</p>
+              <p>Psychological Help</p>
+              <li><a href="" class="btn_azuk">Read More</a></li>
+            </div>
+  
+            <div id="enmedio" class="titulosombra">
+              <h1>3 MONTHS</h1>
+              <h2>$1250</h2>
+              <p>Weight Assessment</p>
+              <p>Dieting</p>
+              <p>Physical Activities</p>
+              <p>Coaching</p>
+              <p>Psychological Help</p>
+              <li><a href="" class="btn_azul">Read More</a></li>
+            </div>
+  
+            <div id="tercero" class="titulosombra">
+              <h1>6 MONTHS</h1>
+              <h2>$2600</h2>
+              <p>Weight Assessment</p>
+              <p>Dieting</p>
+              <p>Physical Activities</p>
+              <p>Coaching</p>
+              <p>Psychological Help</p>
+              <li><a href="" class="btn_azuk">Read More</a></li>
+            </div>
+            
+  
+          </section>
+        </div>
+
+        <br><br>
+
+                <!-- APARTADO FANCYBOX -->
+                
+                  <div id="gallery" class="fotos">
+                    <h1>O ‎ U ‎ R ‎ ‎ ‎ ‎ G ‎ A ‎ L ‎ L ‎ E ‎ R ‎ Y</h1>
+                  </div>
+                  <section class="galeria">
+
+                    <a href="img/fancybox1.jpg" class="fancybox" title="PHOTO 1" rel="gallery1"> 
+                        
+                        <figure>
+                            <img src="img/fancybox1.jpg" alt="">
+                        </figure>
+            
+                       </a>
+            
+                       <a href="img/fancybox2.jpg" class="fancybox" title="PHOTO 2" rel="gallery1"> 
+                        
+                        <figure>
+                            <img src="img/fancybox2.jpg" alt="">
+                        </figure>
+                        
+                       </a>
+            
+                       <a href="img/fancybox3.jpg" class="fancybox" title="PHOTO 3" rel="gallery1"> 
+                        
+                        <figure>
+                            <img src="img/fancybox3.jpg" alt="">
+                        </figure>
+                        
+                       </a>
+            
+                       <a href="img/fancybox4.jpg" class="fancybox" title="PHOTO 4" rel="gallery1"> 
+                        
+                        <figure>
+                            <img src="img/fancybox4.jpg" alt="">
+                        </figure>
+                        
+                       </a>
+  
+                       <a href="img/fancybox5.jpg" class="fancybox" title="PHOTO 5" rel="gallery1"> 
+                        
+                        <figure>
+                            <img src="img/fancybox5.jpg" alt="">
+                        </figure>
+            
+                       </a>
+                       <a href="img/fancybox6.jpg" class="fancybox" title="PHOTO 6" rel="gallery1"> 
+                        
+                        <figure>
+                            <img src="img/fancybox6.jpg" alt="">
+                        </figure>
+            
+                       </a>
+                </section>
+               
+                
+          
+<br><br>
+
+
+                  <!-- APARTADO DE MODAL DE FORMULARIO -->
+<div id="contac" class="fondo_blanco"> 
+
+
+  <section class="cabecera8">
+    
+  <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.4915521559856!2d-89.66899778572323!3d21.01300899369318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674891d01315f%3A0xcb8ba96b39a6031c!2sInstituto%20Tecnol%C3%B3gico%20de%20M%C3%A9rida%2C%20Campus%20Poniente!5e0!3m2!1ses-419!2smx!4v1670586664678!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <div class="contactanos">
+    <h1>C ‎ O ‎ N ‎ T ‎ A ‎ C ‎ T ‎ ‎ ‎ ‎ U ‎ S</h1>
+    <h2>Free Consultation</h2>
+    <p>Losing weight is undoubtedly a harsh and long process. The one that demands a lot of resolve, but medical expertise even more than that. We’re gonna help you with both!</p>
+
+    <ul class="btn_formulario">
+      <li><a id="btn" class="btn-learn" href="#">learn more</a></li>
+    </ul>
+
+    
+
+
+  </div>
+</section>
+
+
+</div>
+      
+
+<section id="modo1" class="modalidad">
+  <div class="caja-modal">
+    <div class="caja-contenido">
+      <i id="btncerrar" class="btncerrar fas fa-window-close"></i>
+      <div class="caja-form">
+        <h1>Contact Us</h1>
+        <h2>
+          If you have any questions concerning our services, please fill out
+          the contact form bellow
+        </h2>
+        <form action="">
+          <input type="text" placeholder="Name..." />
+          <input type="text" placeholder="Email..." />
+          <textarea rows="10" placeholder="Message..."></textarea>
+          <input class="btn" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FORMULARIOS ESCONDIDO -->
+
+
+
+
+      
+<footer>
+  <div class="final">
+    <h1> CHAN BARRANCA ANGEL URIEL</h1>
+    <h1>PROYECTO UNIDAD 4</h1>
+  </div>
+
+</footer>
+
+
+
+
+     
+      
+      <script src="funciones.js"></script>
+
+
+      <!-- SCRIP DE MODAL DE FORMULARIO -->
+      <script>
+        var mostrarmodal = document.getElementById("modo1");
+        var cerrarmodal = document.getElementById("btncerrar");
+        var btnejecutar = document.getElementById("btn");
+    
+        btnejecutar.onclick = function () {
+          mostrarmodal.style.display = "block";
+        };
+    
+        cerrarmodal.onclick = function () {
+          mostrarmodal.style.display = "none";
+        };
+    
+        window.onclick = function (event) {
+          if (event.target == mostrarmodal) {
+            mostrarmodal.style.display = "none";
+          }
+        };
+      </script>
+</body>
+</html>
